@@ -1,0 +1,454 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    /* font-size: 14px; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #192525;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+.logo{
+    background-image: url("./images/logo/logo.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 48px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-address{
+    
+    align-items: center;
+    font-size: 0.85rem;
+    
+}
+
+.add-icon{
+    font-size: 1rem;
+    display: flex;
+}
+
+
+
+/* box3 */
+
+
+.nav-search{
+    display: flex;
+    background-color: #c88003;
+    width: 700px;
+    height: 35px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+   
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-icon i {
+    font-size: 1.5rem;
+    color: #0F1111;
+    
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(198, 56, 9);
+}
+
+
+
+
+/* box 4 */
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.9;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+.nav-cart i{
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/* Panel below navigation bar */
+
+.panel{
+    display: flex;
+    height: 40px;
+    background: #2f4f4f;
+    color: #dcdcdc;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 40px;
+   
+}
+
+.panel-ops{
+    font-size: 0.85rem;
+    width: 70%;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Below navigation */
+
+.hero-section{
+    background-image: url(./images/herosection/img1.webp);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    opacity: .5;
+    height: 30px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hero-message a{
+    color: rgb(6, 57, 12);
+}
+
+/* shop section */
+
+
+.shop-section{
+    margin-top: 20px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.common{
+    border: 2px solid #2f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0F1111;
+    width: 380px;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1{
+    background-image: url(./images/shopsection/img2.jpg);
+}
+.box2{
+    background-image: url(./images/shopsection/img3.jpg);
+}
+.box3{
+    background-image: url(./images/shopsection/img4.jpg);  
+}
+.box4{
+    background-image: url(./images/shopsection/img5.jpg);
+}
+
+/* Books corner  */
+.books{
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+    
+}
+
+.books .text{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2f4f4f;
+}
+
+.book-container{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+
+.book{
+    border: 2px solid #2f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0F1111;
+    width: 170px;
+    height: 170px;
+    border: 2px solid #2f4f4f;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px black solid;
+}
+
+.bo{
+    color: #2f4f4f;
+    text-align: center;
+}
+
+.book1{
+    background-image: url(./images/books/3b47d124002685f2a3c67e47383232c7.jpg);    
+}
+.book2{
+    background-image: url(./images/books/gatsby-original2.jpg);    
+}
+.book3{
+    background-image: url(./images/books/bravenewworld.jpg);    
+}
+.book4{
+    background-image: url(./images/books/39739_0d64668dff792ed1_b.jpg);    
+}
+.book5{
+    background-image: url(./images/books/The-Catcher-in-the-Rye-First-Edition-cover-E.-Michael-Mitchell.jpg);    
+}
+.book6{
+    background-image: url(./images/books/invisibleman-1509049531-640x996.jpg);    
+}
+.book7{
+    background-image: url(./images/books/lf-1-1.jpg);    
+}
+.book8{
+    background-image: url(./images/books/lf-1.jpg);    
+}
+.book9{
+    background-image: url(./images/books/To_Kill_a_Mockingbird_first_edition_cover.jpg);    
+}
+.book10{
+    background-image: url(./images/books/4cc4b6-20150304-catch22.jpg);    
+}
+.book11{
+    background-image: url(./images/books/39480_1.jpg);    
+}
+.book12{
+    background-image: url(./images/books/81IHPwG1tbL.jpg);    
+}
+.book13{
+    background-image: url(./images/books/lf-2.jpg);    
+}
+.book14{
+    background-image: url(./images/books/Jaws-BTS-91.png);    
+}
+.book15{
+    background-image: url(./images/books/Song-of-Solomon.jpg);    
+}
+.book16{
+    background-image: url(./images/books/2-1-Joan-Didion1.jpg);    
+}
+
+
+
+
+
+
+
+
+
+
+/* author desk */
+.authors{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    
+}
+
+.authors .text{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2f4f4f;
+}
+
+.author-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+
+.author{
+    border: 2px solid #2f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0F1111;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #2f4f4f;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.b{
+    color: #2f4f4f;
+    text-align: center;
+}
+
+.aut1{
+    background-image: url(./images/authors/williamshakespear.jpg);    
+}
+.aut2{
+    background-image: url(./images/authors/robertfrost.jpg);    
+}
+.aut3{
+    background-image: url(./images/authors/Ruskinbond.jpg);    
+}
+.aut4{
+    background-image: url(./images/authors/fyodor.jpg);    
+}
+.aut5{
+    background-image: url(./images/authors/marcus.jpg);    
+}
+.aut6{
+    background-image: url(./images/authors/leo.webp);    
+}
+
+
+
+/* Footer  */
+
+footer{
+    background-color: #2f4f4f;
+}
+
+
+.foot-panel1{
+    margin-top: 15px;
+}
+
+.foot-panel1 a{
+    
+    background-color: #192525;
+    color: beige;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.footpanel2 {
+    display: flex;
+    justify-content: space-between; /* Ensures the lists are spaced evenly */
+    margin-top: 15px;
+}
+
+.footpanel2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 45%; /* Adjust the width of each list */
+}
+
+.footpanel2 li {
+    margin: 10px 0;
+}
+
+.footpanel2 h1 {
+    margin-bottom: 10px;
+}
+
+.footpanel2 a{
+    color: beige;
+}
+
+.invisible-link{
+    color: inherit;  
+    text-decoration: none;
+}
